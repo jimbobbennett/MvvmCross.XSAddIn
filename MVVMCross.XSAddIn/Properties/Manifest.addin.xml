@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+		<Import file="Templates/MvvmCross.Solution.xpt.xml" />
+	</Runtime>
+	
+	<Extension path="/MonoDevelop/Ide/ProjectTemplateCategories/other/net">
+		<Category id="mvvmcross" name="MVVM Cross" />
+	</Extension>
+
+	<Extension path="/MonoDevelop/Ide/ProjectTemplates">
+		<ProjectTemplate id="mvvmcrosssolution" file="Templates/MvvmCross.Solution.xpt.xml" />
+	</Extension>
+</ExtensionModel>
