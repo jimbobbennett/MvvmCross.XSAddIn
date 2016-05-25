@@ -87,13 +87,13 @@
 			      HintPath="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll"/>
 			</References>
 			<Files>
-				<File name="Resources/drawable/Icon.png" src="Projects/Droid/Resources/drawable/Icon.png"/>
-				<File name="Resources/drawable/splash.png" src="Projects/Droid/Resources/drawable/splash.png"/>
-				<File name="Resources/drawable-hdpi/Icon.png" src="Projects/Droid/Resources/drawable-hdpi/Icon.png"/>
-				<File name="Resources/drawable-mdpi/Icon.png" src="Projects/Droid/Resources/drawable-mdpi/Icon.png"/>
-				<File name="Resources/drawable-xhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xhdpi/Icon.png"/>
-				<File name="Resources/drawable-xxhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xxhdpi/Icon.png"/>
-				<File name="Resources/drawable-xxxhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xxxhdpi/Icon.png"/>
+				<RawFile name="Resources/drawable/Icon.png" src="Projects/Droid/Resources/drawable/Icon.png"/>
+				<RawFile name="Resources/drawable/splash.png" src="Projects/Droid/Resources/drawable/splash.png"/>
+				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Projects/Droid/Resources/drawable-hdpi/Icon.png"/>
+				<RawFile name="Resources/drawable-mdpi/Icon.png" src="Projects/Droid/Resources/drawable-mdpi/Icon.png"/>
+				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xhdpi/Icon.png"/>
+				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xxhdpi/Icon.png"/>
+				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Projects/Droid/Resources/drawable-xxxhdpi/Icon.png"/>
 				
 				<File name="packages.config" DefaultName="packages.config" src="Projects/Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Projects/Droid/DebugTrace.cs" />
