@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
-using ${ProjectName}.Core.ViewModels;
+using ${SolutionName}.Core.ViewModels;
 
 namespace ${ProjectName}.Views
 {

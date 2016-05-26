@@ -129,7 +129,7 @@
 				
             </Files>
 		</Project>
-		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="MonoTouch">
+		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">
 			<Options />
 			<References>
 				<Reference type="Package" refto="System.Core" />
