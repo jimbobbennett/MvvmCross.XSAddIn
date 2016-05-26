@@ -5,7 +5,7 @@ using Mono.Addins.Description;
 [assembly: Addin (
     "MVVMCross.XSAddIn",
     Namespace = "MVVMCross.XSAddIn",
-    Version = "1.0"
+    Version = "0.1"
 )]
 
 [assembly: AddinName ("MVVMCross.XSAddIn")]
