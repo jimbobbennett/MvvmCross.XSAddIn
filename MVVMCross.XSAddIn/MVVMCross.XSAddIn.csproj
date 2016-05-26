@@ -187,7 +187,6 @@
     <None Include="Templates\Projects\iOS\Views\FirstView.storyboard">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="addin-project.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Templates\" />
