@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Specialized;
 using System.Windows.Input;
 using MvvmCross.iOS.Views;
@@ -88,7 +89,11 @@ namespace ${ProjectName}
 
         public void Include(INotifyCollectionChanged changed)
         {
-            changed.CollectionChanged += (s, e) => { var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}"; };
+            changed.CollectionChanged += (s, e) => 
+            { 
+                var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}";
+                GC.KeepAlive (test);
+            };
         }
 
         public void Include(ICommand command)
@@ -99,6 +104,7 @@ namespace ${ProjectName}
         public void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
         {
             injector = new MvvmCross.Platform.IoC.MvxPropertyInjector();
+            GC.KeepAlive (injector);
         } 
 
         public void Include(System.ComponentModel.INotifyPropertyChanged changed)

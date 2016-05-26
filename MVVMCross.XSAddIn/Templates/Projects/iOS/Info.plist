@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>MvvmCross_VSAddIn.iOS</string>
+	<string>${SolutionName}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.MvvmCross_VSAddIn.iOS</string>
+	<string>com.companyname.${SolutionName}</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
