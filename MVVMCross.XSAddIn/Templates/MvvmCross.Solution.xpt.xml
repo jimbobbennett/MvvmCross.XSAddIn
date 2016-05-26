@@ -6,6 +6,7 @@
 		<Category>other/net/mvvmcross</Category>
 		<LanguageName>C#</LanguageName>
 		<Icon>res:MVVMCross.XSAddIn.Icons.MvvmCross.png</Icon>
+		<Icon32>Icons/MvvmCross.png</Icon32>
 		<_Description>Creates a new MVVMCross cross platform solution</_Description>
 		<DefaultFilename>MyFirstMvvmCrossApp</DefaultFilename>
 		<FileExtension>.csproj</FileExtension>

@@ -2,6 +2,55 @@
 <ExtensionModel>
 	<Runtime>
 		<Import file="Templates/MvvmCross.Solution.xpt.xml" />
+		<Import file="Templates/Projects/Core/App.cs"/>
+		<Import file="Templates/Projects/Core/packages.config"/>
+		<Import file="Templates/Projects/Core/Properties/AssemblyInfo.cs"/>
+		<Import file="Templates/Projects/Core/ViewModels/FirstViewModel.cs"/>
+		<Import file="Templates/Projects/Droid/Assets/AboutAssets.txt"/>
+		<Import file="Templates/Projects/Droid/Bootstrap/JsonPluginBootstrap.cs"/>
+		<Import file="Templates/Projects/Droid/DebugTrace.cs"/>
+		<Import file="Templates/Projects/Droid/LinkerPleaseInclude.cs"/>
+		<Import file="Templates/Projects/Droid/packages.config"/>
+		<Import file="Templates/Projects/Droid/Properties/AndroidManifest.xml"/>
+		<Import file="Templates/Projects/Droid/Properties/AssemblyInfo.cs"/>
+		<Import file="Templates/Projects/Droid/Resources/AboutResources.txt"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable/splash.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable-hdpi/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable-mdpi/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable-xhdpi/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable-xxhdpi/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/drawable-xxxhdpi/Icon.png"/>
+		<Import file="Templates/Projects/Droid/Resources/layout/FirstView.axml"/>
+		<Import file="Templates/Projects/Droid/Resources/layout/SplashScreen.axml"/>
+		<Import file="Templates/Projects/Droid/Resources/layout/toolbar.axml"/>
+		<Import file="Templates/Projects/Droid/Resources/Resource.Designer.cs"/>
+		<Import file="Templates/Projects/Droid/Resources/values/arrays.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/colors.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/dimens.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/integers.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/SplashStyle.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/strings.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values/styles.xml"/>
+		<Import file="Templates/Projects/Droid/Resources/values-v21/styles.xml"/>
+		<Import file="Templates/Projects/Droid/Setup.cs"/>
+		<Import file="Templates/Projects/Droid/SplashScreen.cs"/>
+		<Import file="Templates/Projects/Droid/Views/BaseView.cs"/>
+		<Import file="Templates/Projects/Droid/Views/FirstView.cs"/>
+		<Import file="Templates/Projects/iOS/AppDelegate.cs"/>
+		<Import file="Templates/Projects/iOS/DebugTrace.cs"/>
+		<Import file="Templates/Projects/iOS/Entitlements.plist"/>
+		<Import file="Templates/Projects/iOS/Info.plist"/>
+		<Import file="Templates/Projects/iOS/LinkerPleaseInclude.cs"/>
+		<Import file="Templates/Projects/iOS/Main.cs"/>
+		<Import file="Templates/Projects/iOS/Main.storyboard"/>
+		<Import file="Templates/Projects/iOS/packages.config"/>
+		<Import file="Templates/Projects/iOS/Properties/AssemblyInfo.cs"/>
+		<Import file="Templates/Projects/iOS/Resources/LaunchScreen.xib"/>
+		<Import file="Templates/Projects/iOS/Setup.cs"/>
+		<Import file="Templates/Projects/iOS/Views/FirstView.cs"/>
+		<Import file="Templates/Projects/iOS/Views/FirstView.designer.cs"/>
+		<Import file="Templates/Projects/iOS/Views/FirstView.storyboard"/>
 	</Runtime>
 	
 	<Extension path="/MonoDevelop/Ide/ProjectTemplateCategories/other/net">
