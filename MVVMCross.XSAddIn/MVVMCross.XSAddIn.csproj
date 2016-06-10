@@ -187,6 +187,12 @@
     <None Include="Templates\Projects\iOS\Views\FirstView.storyboard">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="..\addin-project.xml">
+      <Link>addin-project.xml</Link>
+    </None>
+    <None Include="..\README.md">
+      <Link>README.md</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Templates\" />
