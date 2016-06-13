@@ -54,7 +54,7 @@
 	</Runtime>
 	
 	<Extension path="/MonoDevelop/Ide/ProjectTemplateCategories/other/net">
-		<Category id="mvvmcross" name="MVVM Cross" />
+		<Category id="mvvmcross" name="Mvvm Cross" />
 	</Extension>
 
 	<Extension path="/MonoDevelop/Ide/ProjectTemplates">

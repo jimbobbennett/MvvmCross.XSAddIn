@@ -7,7 +7,7 @@
 		<LanguageName>C#</LanguageName>
 		<Icon>res:MVVMCross.XSAddIn.Icons.MvvmCross.png</Icon>
 		<Icon32>Icons/MvvmCross.png</Icon32>
-		<_Description>Creates a new MVVMCross cross platform solution</_Description>
+		<_Description>Creates a new MvvmCross cross platform solution. This will create an iOS single view app with a demo view, an Android app with a demo view and a PCL core project containing a demo view model.  This is the same as if you had used the MvvmCross starter pack and followed the instructions.</_Description>
 		<DefaultFilename>MyFirstMvvmCrossApp</DefaultFilename>
 		<FileExtension>.csproj</FileExtension>
 	</TemplateConfiguration>
