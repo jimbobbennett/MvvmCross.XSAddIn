@@ -6,7 +6,7 @@ using ${SolutionName}.Core.ViewModels;
 namespace ${ProjectName}.Views
 {
     [MvxFromStoryboard]
-    public partial class FirstView : MvxViewController<FirstViewModel>
+    public partial class FirstView : MvxViewController
     {
         public FirstView(IntPtr handle) : base(handle)
         {

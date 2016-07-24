@@ -21,13 +21,13 @@
 			<References>
 				<Reference type="Package" refto="System" />
 				<Reference type="Package" refto="MvvmCross.Binding"
-							HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll"/>
+							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Core"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll"/>
+			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Localization"
-			      			HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll"/>
+			      			HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Platform"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll"/>
+			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll"/>
 			</References>
             <Files>
 				<File name="packages.config" DefaultName="packages.config" src="Projects/Core/packages.config" />
@@ -50,41 +50,41 @@
 				<Reference type="Package" refto="Mono.Android.Export" />
 				<Reference type="Project" refto="${ProjectName}.Core" />
 			    <Reference type="Package" refto="MvvmCross.Binding"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\MonoAndroid\MvvmCross.Binding.dll"/>
+			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Binding.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Binding.Droid"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\MonoAndroid\MvvmCross.Binding.Droid.dll"/>
+			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Binding.Droid.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Core"
-			      HintPath="..\packages\MvvmCross.Core.4.2.0\lib\MonoAndroid\MvvmCross.Core.dll"/>
+			      HintPath="..\packages\MvvmCross.Core.4.2.2\lib\MonoAndroid\MvvmCross.Core.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Droid"
-			      HintPath="..\packages\MvvmCross.Core.4.2.0\lib\MonoAndroid\MvvmCross.Droid.dll"/>
+			      HintPath="..\packages\MvvmCross.Core.4.2.2\lib\MonoAndroid\MvvmCross.Droid.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Droid.Shared"
-			      HintPath="..\packages\MvvmCross.Droid.Shared.4.2.0\lib\MonoAndroid\MvvmCross.Droid.Shared.dll"/>
+			      HintPath="..\packages\MvvmCross.Droid.Shared.4.2.2\lib\MonoAndroid\MvvmCross.Droid.Shared.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Droid.Support.V4"
-			      HintPath="..\packages\MvvmCross.Droid.Support.V4.4.2.0\lib\MonoAndroid403\MvvmCross.Droid.Support.V4.dll"/>
+			      HintPath="..\packages\MvvmCross.Droid.Support.V4.4.2.2\lib\MonoAndroid403\MvvmCross.Droid.Support.V4.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Droid.Support.V7.AppCompat"
-			      HintPath="..\packages\MvvmCross.Droid.Support.V7.AppCompat.4.2.0\lib\MonoAndroid403\MvvmCross.Droid.Support.V7.AppCompat.dll"/>
+			      HintPath="..\packages\MvvmCross.Droid.Support.V7.AppCompat.4.2.2\lib\MonoAndroid403\MvvmCross.Droid.Support.V7.AppCompat.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Localization"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\MonoAndroid\MvvmCross.Localization.dll"/>
+			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Localization.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Platform"
-			      HintPath="..\packages\MvvmCross.Platform.4.2.0\lib\MonoAndroid\MvvmCross.Platform.dll"/>
+			      HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\MonoAndroid\MvvmCross.Platform.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Platform.Droid"
-			      HintPath="..\packages\MvvmCross.Platform.4.2.0\lib\MonoAndroid\MvvmCross.Platform.Droid.dll"/>
+			      HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\MonoAndroid\MvvmCross.Platform.Droid.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Plugins.Json"
-			      HintPath="..\packages\MvvmCross.Plugin.Json.4.2.0\lib\MonoAndroid\MvvmCross.Plugins.Json.dll"/>
+			      HintPath="..\packages\MvvmCross.Plugin.Json.4.2.2\lib\MonoAndroid\MvvmCross.Plugins.Json.dll"/>
 			    <Reference type="Package" refto="Newtonsoft.Json"
-			      HintPath="..\packages\Newtonsoft.Json.8.0.3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll"/>
+			      HintPath="..\packages\Newtonsoft.Json.9.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll"/>
 				<Reference type="Package" refto="Xamarin.Android.Support.Animated.Vector.Drawable"
-			      HintPath="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll"/>
 			    <Reference type="Package" refto="Xamarin.Android.Support.Design"
-			      HintPath="..\packages\Xamarin.Android.Support.Design.23.3.0\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.Design.23.4.0.1\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll"/>
 			    <Reference type="Package" refto="Xamarin.Android.Support.v4"
-			      HintPath="..\packages\Xamarin.Android.Support.v4.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.v4.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll"/>
 			    <Reference type="Package" refto="Xamarin.Android.Support.v7.AppCompat"
-			      HintPath="..\packages\Xamarin.Android.Support.v7.AppCompat.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.v7.AppCompat.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll"/>
 			    <Reference type="Package" refto="Xamarin.Android.Support.v7.RecyclerView"
-			      HintPath="..\packages\Xamarin.Android.Support.v7.RecyclerView.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.v7.RecyclerView.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll"/>
 			    <Reference type="Package" refto="Xamarin.Android.Support.Vector.Drawable"
-			      HintPath="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll"/>
+			      HintPath="..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll"/>
 			</References>
 			<Files>
 				<RawFile name="Resources/drawable/Icon.png" src="Projects/Droid/Resources/drawable/Icon.png"/>
@@ -140,19 +140,19 @@
 				
 				<Reference type="Package" refto="System" />
 				<Reference type="Package" refto="MvvmCross.Binding"
-							HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll"/>
+							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Binding.dll"/>
 				<Reference type="Package" refto="MvvmCross.Binding.iOS"
-							HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll"/>
+							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Core"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.0\lib\Xamarin.iOS10\MvvmCross.Core.dll"/>
+			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\Xamarin.iOS10\MvvmCross.Core.dll"/>
 			    <Reference type="Package" refto="MvvmCross.iOS"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.0\lib\Xamarin.iOS10\MvvmCross.iOS.dll"/>
+			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\Xamarin.iOS10\MvvmCross.iOS.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Localization"
-			      			HintPath="..\packages\MvvmCross.Binding.4.2.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll"/>
+			      			HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Localization.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Platform"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll"/>
+			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\Xamarin.iOS10\MvvmCross.Platform.dll"/>
 			    <Reference type="Package" refto="MvvmCross.Platform.iOS"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.0\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll"/>
+			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll"/>
 			</References>
 			<Files>
 				<File name="packages.config" src="Projects/iOS/packages.config" />
