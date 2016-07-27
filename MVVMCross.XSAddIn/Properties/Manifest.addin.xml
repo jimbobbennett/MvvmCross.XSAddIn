@@ -25,7 +25,7 @@
 		<Import file="Templates/Projects/Native/Droid/Resources/layout/FirstView.axml"/>
 		<Import file="Templates/Projects/Native/Droid/Resources/layout/SplashScreen.axml"/>
 		<Import file="Templates/Projects/Native/Droid/Resources/layout/toolbar.axml"/>
-		<Import file="Templates/Projects/Native/Droid/Resources/Resource.Designer.cs"/>
+		<Import file="Templates/Projects/Native/Droid/Resources/Resource.designer.cs"/>
 		<Import file="Templates/Projects/Native/Droid/Resources/values/arrays.xml"/>
 		<Import file="Templates/Projects/Native/Droid/Resources/values/colors.xml"/>
 		<Import file="Templates/Projects/Native/Droid/Resources/values/dimens.xml"/>

@@ -72,7 +72,7 @@
             <File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml"/>
 
             <File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt"/>
-            <File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs"/>
+            <File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.designer.cs"/>
 				
 				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
