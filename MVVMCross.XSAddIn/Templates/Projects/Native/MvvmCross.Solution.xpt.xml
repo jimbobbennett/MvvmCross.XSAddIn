@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0"?>
 <Template>
-
 	<TemplateConfiguration>
 		<_Name>MvvmCross Cross platform app</_Name>
 		<Category>other/net/mvvmcross</Category>
@@ -11,35 +10,28 @@
 		<DefaultFilename>MyFirstMvvmCrossApp</DefaultFilename>
 		<FileExtension>.csproj</FileExtension>
 	</TemplateConfiguration>
-
 	<Actions>
 	</Actions>
-
 	<Combine name="${ProjectName}" directory=".">
-        <Project name = "${ProjectName}.Core" directory = "./${ProjectName}.Core" type="C#PortableLibrary">
-			<Options Target = "Library" TargetProfile = "Profile111"/>
+		<Project name="${ProjectName}.Core" directory="./${ProjectName}.Core" type="C#PortableLibrary">
+			<Options Target="Library" TargetProfile="Profile111" />
 			<References>
 				<Reference type="Package" refto="System" />
-				<Reference type="Package" refto="MvvmCross.Binding"
-							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Core"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Localization"
-			      			HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Platform"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll"/>
 			</References>
-            <Files>
+			<Files>
 				<File name="packages.config" DefaultName="packages.config" src="Core/packages.config" />
 				<File name="App.cs" DefaultName="App.cs" src="Core/App.cs" />
 				<File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Core/Properties/AssemblyInfo.cs" />
 				<File name="ViewModels/FirstViewModel.cs" DefaultName="FirstViewModel.cs" src="Core/ViewModels/FirstViewModel.cs" />
-            </Files>
-        </Project>
-		<Project name="${ProjectName}.Droid" directory = "./${ProjectName}.Droid" type="MonoDroid">
-			<Options AndroidApplication="true" AndroidResgenFile="Resources\Resource.Designer.cs" GenerateSerializationAssemblies="Off"
-						ProductVersion="8.0.30703" SchemaVersion="2.0" AppDesignerFolder="Properties" FileAlignment="512"
-						JavaMaximumHeapSize="1G"/>
+			</Files>
+			<Packages>
+				<Package id="MvvmCross" version="4.2.2" />
+			</Packages>
+		</Project>
+		<Project name="${ProjectName}.Droid" directory="./${ProjectName}.Droid" type="MonoDroid">
+			<Options AndroidApplication="true" AndroidResgenFile="Resources\Resource.Designer.cs" GenerateSerializationAssemblies="Off" 
+				ProductVersion="8.0.30703" SchemaVersion="2.0" AppDesignerFolder="Properties" FileAlignment="512" 
+				JavaMaximumHeapSize="1G" />
 			<References>
 				<Reference type="Package" refto="mscorlib" />
 				<Reference type="Package" refto="System" />
@@ -49,114 +41,57 @@
 				<Reference type="Package" refto="Mono.Android" />
 				<Reference type="Package" refto="Mono.Android.Export" />
 				<Reference type="Project" refto="${ProjectName}.Core" />
-			    <Reference type="Package" refto="MvvmCross.Binding"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Binding.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Binding.Droid"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Binding.Droid.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Core"
-			      HintPath="..\packages\MvvmCross.Core.4.2.2\lib\MonoAndroid\MvvmCross.Core.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Droid"
-			      HintPath="..\packages\MvvmCross.Core.4.2.2\lib\MonoAndroid\MvvmCross.Droid.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Droid.Shared"
-			      HintPath="..\packages\MvvmCross.Droid.Shared.4.2.2\lib\MonoAndroid\MvvmCross.Droid.Shared.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Droid.Support.V4"
-			      HintPath="..\packages\MvvmCross.Droid.Support.V4.4.2.2\lib\MonoAndroid403\MvvmCross.Droid.Support.V4.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Droid.Support.V7.AppCompat"
-			      HintPath="..\packages\MvvmCross.Droid.Support.V7.AppCompat.4.2.2\lib\MonoAndroid403\MvvmCross.Droid.Support.V7.AppCompat.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Localization"
-			      HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\MonoAndroid\MvvmCross.Localization.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Platform"
-			      HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\MonoAndroid\MvvmCross.Platform.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Platform.Droid"
-			      HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\MonoAndroid\MvvmCross.Platform.Droid.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Plugins.Json"
-			      HintPath="..\packages\MvvmCross.Plugin.Json.4.2.2\lib\MonoAndroid\MvvmCross.Plugins.Json.dll"/>
-			    <Reference type="Package" refto="Newtonsoft.Json"
-			      HintPath="..\packages\Newtonsoft.Json.9.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll"/>
-				<Reference type="Package" refto="Xamarin.Android.Support.Animated.Vector.Drawable"
-			      HintPath="..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Animated.Vector.Drawable.dll"/>
-			    <Reference type="Package" refto="Xamarin.Android.Support.Design"
-			      HintPath="..\packages\Xamarin.Android.Support.Design.23.4.0.1\lib\MonoAndroid43\Xamarin.Android.Support.Design.dll"/>
-			    <Reference type="Package" refto="Xamarin.Android.Support.v4"
-			      HintPath="..\packages\Xamarin.Android.Support.v4.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll"/>
-			    <Reference type="Package" refto="Xamarin.Android.Support.v7.AppCompat"
-			      HintPath="..\packages\Xamarin.Android.Support.v7.AppCompat.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll"/>
-			    <Reference type="Package" refto="Xamarin.Android.Support.v7.RecyclerView"
-			      HintPath="..\packages\Xamarin.Android.Support.v7.RecyclerView.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.RecyclerView.dll"/>
-			    <Reference type="Package" refto="Xamarin.Android.Support.Vector.Drawable"
-			      HintPath="..\packages\Xamarin.Android.Support.Vector.Drawable.23.4.0.1\lib\MonoAndroid403\Xamarin.Android.Support.Vector.Drawable.dll"/>
 			</References>
 			<Files>
-				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png"/>
-				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png"/>
-				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Droid/Resources/drawable-hdpi/Icon.png"/>
-				<RawFile name="Resources/drawable-mdpi/Icon.png" src="Droid/Resources/drawable-mdpi/Icon.png"/>
-				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png"/>
-				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png"/>
-				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png"/>
-				
+				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png" />
+				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png" />
+				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Droid/Resources/drawable-hdpi/Icon.png" />
+				<RawFile name="Resources/drawable-mdpi/Icon.png" src="Droid/Resources/drawable-mdpi/Icon.png" />
+				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png" />
+				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png" />
+				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png" />
 				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
 				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
 				<File name="Setup.cs" DefaultName="Setup.cs" src="Droid/Setup.cs" />
 				<File name="SplashScreen.cs" DefaultName="SplashScreen.cs" src="Droid/SplashScreen.cs" />
-
 				<File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
-				<File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml"/>
-				
+				<File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml" />
 				<File name="Views/FirstView.cs" DefaultName="FirstView.cs" src="Droid/Views/FirstView.cs" />
 				<File name="Views/BaseView.cs" DefaultName="BaseView.cs" src="Droid/Views/BaseView.cs" />
-
 				<File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
-				
-				<File name="Bootstrap/JsonPluginBootstrap.cs" DefaultName="JsonPluginBootstrap.cs" src="Droid/Bootstrap/JsonPluginBootstrap.cs" />
-
-				<File name="Resources/layout/FirstView.axml" src="Droid/Resources/layout/FirstView.axml"/>
-				<File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml"/>
-				<File name="Resources/layout/toolbar.axml" src="Droid/Resources/layout/toolbar.axml"/>
-
-				<File name="Resources/values/arrays.xml" src="Droid/Resources/values/arrays.xml"/>
-				<File name="Resources/values/colors.xml" src="Droid/Resources/values/colors.xml"/>
-				<File name="Resources/values/dimens.xml" src="Droid/Resources/values/dimens.xml"/>
-				<File name="Resources/values/integers.xml" src="Droid/Resources/values/integers.xml"/>
-				<File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml"/>
-				<File name="Resources/values/strings.xml" src="Droid/Resources/values/strings.xml"/>
-				<File name="Resources/values/styles.xml" src="Droid/Resources/values/styles.xml"/>
-
-				<File name="Resources/values-v21/styles.xml" src="Droid/Resources/values-v21/styles.xml"/>
-
-				<File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt"/>
-				<File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs"/>
-				
-            </Files>
+				<File name="Resources/layout/FirstView.axml" src="Droid/Resources/layout/FirstView.axml" />
+				<File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml" />
+				<File name="Resources/layout/toolbar.axml" src="Droid/Resources/layout/toolbar.axml" />
+				<File name="Resources/values/arrays.xml" src="Droid/Resources/values/arrays.xml" />
+				<File name="Resources/values/colors.xml" src="Droid/Resources/values/colors.xml" />
+				<File name="Resources/values/dimens.xml" src="Droid/Resources/values/dimens.xml" />
+				<File name="Resources/values/integers.xml" src="Droid/Resources/values/integers.xml" />
+				<File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml" />
+				<File name="Resources/values/strings.xml" src="Droid/Resources/values/strings.xml" />
+				<File name="Resources/values/styles.xml" src="Droid/Resources/values/styles.xml" />
+				<File name="Resources/values-v21/styles.xml" src="Droid/Resources/values-v21/styles.xml" />
+				<File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt" />
+				<File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs" />
+			</Files>
+			<Packages>
+				<Package id="MvvmCross" version="4.2.2" />
+				<Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.2.2"/>
+				<Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.2.2"/>
+				<Package id="MvvmCross.Droid.Support.Design" version="4.2.2" />
+			</Packages>
 		</Project>
-		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">
+		<Project name="${ProjectName}.iOS" directory="./${ProjectName}.iOS" type="XamarinIOS">
 			<Options />
 			<References>
 				<Reference type="Package" refto="System.Core" />
 				<Reference type="Package" refto="System.Xml" />
 				<Reference type="Package" refto="Xamarin.iOS" />
 				<Reference type="Project" refto="${ProjectName}.Core" />
-				
 				<Reference type="Package" refto="System" />
-				<Reference type="Package" refto="MvvmCross.Binding"
-							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Binding.dll"/>
-				<Reference type="Package" refto="MvvmCross.Binding.iOS"
-							HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Core"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\Xamarin.iOS10\MvvmCross.Core.dll"/>
-			    <Reference type="Package" refto="MvvmCross.iOS"
-			      			HintPath="..\packages\MvvmCross.Core.4.2.2\lib\Xamarin.iOS10\MvvmCross.iOS.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Localization"
-			      			HintPath="..\packages\MvvmCross.Binding.4.2.2\lib\Xamarin.iOS10\MvvmCross.Localization.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Platform"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\Xamarin.iOS10\MvvmCross.Platform.dll"/>
-			    <Reference type="Package" refto="MvvmCross.Platform.iOS"
-			      			HintPath="..\packages\MvvmCross.Platform.4.2.2\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll"/>
 			</References>
 			<Files>
 				<File name="packages.config" src="iOS/packages.config" />
-				
 				<File name="DebugTrace.cs" src="iOS/DebugTrace.cs" />
 				<File name="LinkerPleaseInclude.cs" src="iOS/LinkerPleaseInclude.cs" />
 				<File name="Setup.cs" src="iOS/Setup.cs" />
@@ -165,15 +100,15 @@
 				<File name="Info.plist" src="iOS/Info.plist" />
 				<File name="Main.cs" src="iOS/Main.cs" />
 				<File name="Main.storyboard" src="iOS/Main.storyboard" />
-
 				<File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="iOS/Properties/AssemblyInfo.cs" />
 				<File name="Resources/LaunchScreen.xib" src="iOS/Resources/LaunchScreen.xib" />
-
 				<File name="Views/FirstView.cs" src="iOS/Views/FirstView.cs" />
 				<File name="Views/FirstView.storyboard" src="iOS/Views/FirstView.storyboard" />
 				<File name="Views/FirstView.designer.cs" src="iOS/Views/FirstView.designer.cs" />
-				
 			</Files>
+			<Packages>
+				<Package id="MvvmCross" version="4.2.2" />
+			</Packages>
 		</Project>
-    </Combine>
+	</Combine>
 </Template>

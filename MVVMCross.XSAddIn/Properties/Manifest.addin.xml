@@ -7,8 +7,8 @@
 		<Import file="Templates/Projects/Native/Core/packages.config"/>
 		<Import file="Templates/Projects/Native/Core/Properties/AssemblyInfo.cs"/>
 		<Import file="Templates/Projects/Native/Core/ViewModels/FirstViewModel.cs"/>
+		
 		<Import file="Templates/Projects/Native/Droid/Assets/AboutAssets.txt"/>
-		<Import file="Templates/Projects/Native/Droid/Bootstrap/JsonPluginBootstrap.cs"/>
 		<Import file="Templates/Projects/Native/Droid/DebugTrace.cs"/>
 		<Import file="Templates/Projects/Native/Droid/LinkerPleaseInclude.cs"/>
 		<Import file="Templates/Projects/Native/Droid/packages.config"/>
@@ -38,6 +38,7 @@
 		<Import file="Templates/Projects/Native/Droid/SplashScreen.cs"/>
 		<Import file="Templates/Projects/Native/Droid/Views/BaseView.cs"/>
 		<Import file="Templates/Projects/Native/Droid/Views/FirstView.cs"/>
+		
 		<Import file="Templates/Projects/Native/iOS/AppDelegate.cs"/>
 		<Import file="Templates/Projects/Native/iOS/DebugTrace.cs"/>
 		<Import file="Templates/Projects/Native/iOS/Entitlements.plist"/>
@@ -53,6 +54,8 @@
 		<Import file="Templates/Projects/Native/iOS/Views/FirstView.designer.cs"/>
 		<Import file="Templates/Projects/Native/iOS/Views/FirstView.storyboard"/>
 
+
+		
       <Import file="Templates/Projects/Forms/MvvmCross.Forms.Solution.xpt.xml" />
 		
 		<Import file="Templates/Projects/Forms/Core/Pages/AboutPage.xaml" />
@@ -64,7 +67,6 @@
       <Import file="Templates/Projects/Forms/Core/Properties/AssemblyInfo.cs" />
       <Import file="Templates/Projects/Forms/Core/ViewModels/FirstViewModel.cs" />
       <Import file="Templates/Projects/Forms/Core/ViewModels/AboutViewModel.cs" />
-
 
       <Import file="Templates/Projects/Forms/Droid/Assets/AboutAssets.txt"/>
       <Import file="Templates/Projects/Forms/Droid/DebugTrace.cs"/>

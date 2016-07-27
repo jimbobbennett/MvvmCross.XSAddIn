@@ -37,9 +37,8 @@
 
          <Packages>
             <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
             <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
-            <Package id="MvvmCross.Binding" version="4.2.2"/>
-            <Package id="MvvmCross.Core" version="4.2.2"/>
          </Packages>
       </Project>
 		<Project name="${ProjectName}.Droid" directory = "./${ProjectName}.Droid" type="MonoDroid">
@@ -85,9 +84,8 @@
 
          <Packages>
             <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
             <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
-            <Package id="MvvmCross.Binding" version="4.2.2"/>
-            <Package id="MvvmCross.Core" version="4.2.2"/>
          </Packages>
 		</Project>
 		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">
@@ -114,9 +112,8 @@
 
          <Packages>
             <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
             <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
-            <Package id="MvvmCross.Binding" version="4.2.2"/>
-            <Package id="MvvmCross.Core" version="4.2.2"/>
          </Packages>
 		</Project>
     </Combine>
