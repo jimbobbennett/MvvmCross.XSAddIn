@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<Template>
+
+	<TemplateConfiguration>
+		<_Name>MvvmCross Forms app</_Name>
+		<Category>other/net/mvvmcross</Category>
+		<LanguageName>C#</LanguageName>
+		<Icon>res:MVVMCross.XSAddIn.Icons.MvvmCross.png</Icon>
+		<Icon32>Icons/MvvmCross.png</Icon32>
+		<_Description>Creates a new MvvmCross Xamarin.Forms solution.</_Description>
+		<DefaultFilename>MyFirstMvvmCrossFormsApp</DefaultFilename>
+		<FileExtension>.csproj</FileExtension>
+	</TemplateConfiguration>
+
+	<Actions>
+	</Actions>
+
+	<Combine name="${ProjectName}" directory=".">
+      <Project name = "${ProjectName}.Core" directory = "./${ProjectName}.Core" type="C#PortableLibrary">
+         <Options Target = "Library" TargetProfile = "Profile259"/>
+         <References>
+            <Reference type="Package" refto="System" />
+         </References>
+         <Files>
+            <File name="Pages/AboutPage.xaml" BuildAction="EmbeddedResource" src="Core/Pages/AboutPage.xaml" />
+            <File name="Pages/AboutPage.xaml.cs" AddStandardHeader="True" src="Core/Pages/AboutPage.xaml.cs" DependsOn="AboutPage.xaml" /> 
+				
+            <File name="Pages/FirstPage.xaml" BuildAction="EmbeddedResource" src="Core/Pages/FirstPage.xaml"/>
+            <File name="Pages/FirstPage.xaml.cs" AddStandardHeader="True" src="Core/Pages/FirstPage.xaml.cs" DependsOn="FirstPage.xaml" />  
+			      
+            <File name="packages.config" DefaultName="packages.config" src="Core/packages.config" />
+            <File name="App.cs" DefaultName="App.cs" src="Core/App.cs" />
+            <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Core/Properties/AssemblyInfo.cs" />
+            <File name="ViewModels/FirstViewModel.cs" DefaultName="FirstViewModel.cs" src="Core/ViewModels/FirstViewModel.cs" />
+            <File name="ViewModels/AboutViewModel.cs" DefaultName="AboutViewModel.cs" src="Core/ViewModels/AboutViewModel.cs" />
+         </Files>
+
+         <Packages>
+            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+         </Packages>
+      </Project>
+		<Project name="${ProjectName}.Droid" directory = "./${ProjectName}.Droid" type="MonoDroid">
+			<Options AndroidApplication="true" AndroidResgenFile="Resources\Resource.Designer.cs" GenerateSerializationAssemblies="Off"
+						ProductVersion="8.0.30703" SchemaVersion="2.0" AppDesignerFolder="Properties" FileAlignment="512"
+						JavaMaximumHeapSize="1G"/>
+			<References>
+				<Reference type="Package" refto="mscorlib" />
+				<Reference type="Package" refto="System" />
+				<Reference type="Package" refto="System.Core" />
+				<Reference type="Package" refto="System.Xml" />
+				<Reference type="Package" refto="System.Xml.Linq" />
+				<Reference type="Package" refto="Mono.Android" />
+				<Reference type="Package" refto="Mono.Android.Export" />
+				<Reference type="Project" refto="${ProjectName}.Core" />
+			</References>
+			<Files>
+            <File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
+
+            <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
+            <File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml"/>
+				
+				<RawFile name="Resources/drawable/icon.png" src="Droid/Resources/drawable/icon.png"/>
+				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png"/>
+				<RawFile name="Resources/drawable-hdpi/icon.png" src="Droid/Resources/drawable-hdpi/icon.png"/>
+				<RawFile name="Resources/drawable-xhdpi/icon.png" src="Droid/Resources/drawable-xhdpi/icon.png"/>
+				<RawFile name="Resources/drawable-xxhdpi/icon.png" src="Droid/Resources/drawable-xxhdpi/icon.png"/>
+
+            <File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml"/>
+				
+            <File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml"/>
+
+            <File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt"/>
+            <File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs"/>
+				
+				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
+				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
+				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
+				<File name="Setup.cs" DefaultName="Setup.cs" src="Droid/Setup.cs" />
+            <File name="SplashScreen.cs" DefaultName="SplashScreen.cs" src="Droid/SplashScreen.cs" />
+            <File name="MvxFormsApplicationActivity.cs" DefaultName="MvxFormsApplicationActivity.cs" src="Droid/MvxFormsApplicationActivity.cs" />
+          </Files>
+
+         <Packages>
+            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+         </Packages>
+		</Project>
+		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">
+			<Options />
+			<References>
+            <Reference type="Package" refto="System" />
+				<Reference type="Package" refto="System.Core" />
+				<Reference type="Package" refto="System.Xml" />
+				<Reference type="Package" refto="Xamarin.iOS" />
+				<Reference type="Project" refto="${ProjectName}.Core" />
+			</References>
+			<Files>
+            <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="iOS/Properties/AssemblyInfo.cs" />
+            <RawFile name="Resources/Default-568h@2x.png" src="iOS/Resources/Default-568h@2x.png" />
+            <File name="AppDelegate.cs" src="iOS/AppDelegate.cs" />
+            <File name="DebugTrace.cs" src="iOS/DebugTrace.cs" />
+            <File name="Entitlements.plist" src="iOS/Entitlements.plist" />
+            <File name="Info.plist" src="iOS/Info.plist" />
+            <File name="LinkerPleaseInclude.cs" src="iOS/LinkerPleaseInclude.cs" />
+            <File name="Main.cs" src="iOS/Main.cs" />
+            <File name="packages.config" src="iOS/packages.config" />
+            <File name="Setup.cs" src="iOS/Setup.cs" />
+			</Files>
+
+         <Packages>
+            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package id="MvvmCross" version="4.2.2"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+         </Packages>
+		</Project>
+    </Combine>
+</Template>
