@@ -82,6 +82,7 @@
       <Import file="Templates/Projects/Forms/Droid/Resources/drawable-xhdpi/icon.png"/>
       <Import file="Templates/Projects/Forms/Droid/Resources/drawable-xxhdpi/icon.png"/>
 		<Import file="Templates/Projects/Forms/Droid/Resources/Resource.designer.cs"/>
+      <Import file="Templates/Projects/Forms/Droid/Resources/layout/SplashScreen.axml"/>
       <Import file="Templates/Projects/Forms/Droid/Resources/values/SplashStyle.xml"/>
 		<Import file="Templates/Projects/Forms/Droid/Setup.cs"/>
       <Import file="Templates/Projects/Forms/Droid/SplashScreen.cs"/>
