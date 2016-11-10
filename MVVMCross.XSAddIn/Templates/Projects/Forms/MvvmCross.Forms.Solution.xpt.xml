@@ -17,7 +17,7 @@
 
 	<Combine name="${ProjectName}" directory=".">
       <Project name = "${ProjectName}.Core" directory = "./${ProjectName}.Core" type="C#PortableLibrary">
-         <Options Target = "Library" TargetProfile = "Profile259"/>
+         <Options Target = "Library" TargetFrameworkVersion = ".NETPortable,Version=v4.6,Profile=Profile44"/> 
          <References>
             <Reference type="Package" refto="System" />
          </References>
@@ -36,9 +36,9 @@
          </Files>
 
          <Packages>
-            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
-            <Package id="MvvmCross" version="4.2.2"/>
-            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+            <Package Id="Xamarin.Forms"/>
+            <Package id="MvvmCross" version="4.4.0"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.4.0"/>
          </Packages>
       </Project>
 		<Project name="${ProjectName}.Droid" directory = "./${ProjectName}.Droid" type="MonoDroid">
@@ -68,8 +68,9 @@
 				<RawFile name="Resources/drawable-xxhdpi/icon.png" src="Droid/Resources/drawable-xxhdpi/icon.png"/>
 
             <File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml"/>
-				
+
             <File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml"/>
+            <File name="Resources/values/strings.xml" src="Droid/Resources/values/strings.xml"/>
 
             <File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt"/>
             <File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.designer.cs"/>
@@ -83,7 +84,7 @@
           </Files>
 
          <Packages>
-            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
+            <Package Id="Xamarin.Forms"/>
             <Package id="MvvmCross" version="4.2.2"/>
             <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
          </Packages>
@@ -111,9 +112,9 @@
 			</Files>
 
          <Packages>
-            <Package Id="Xamarin.Forms" Version="2.3.0.107"/>
-            <Package id="MvvmCross" version="4.2.2"/>
-            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+            <Package Id="Xamarin.Forms"/>
+            <Package id="MvvmCross" version="4.4.0"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.4.0"/>
          </Packages>
 		</Project>
     </Combine>

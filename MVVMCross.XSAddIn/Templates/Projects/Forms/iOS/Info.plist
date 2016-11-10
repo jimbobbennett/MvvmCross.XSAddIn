@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>${ProjectName}</string>
+	<string>${SolutionName}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.${ProjectName}</string>
+	<string>com.companyname.${SolutionName}</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -31,6 +31,6 @@
 	<key>MinimumOSVersion</key>
 	<string>7.0</string>
 	<key>CFBundleName</key>
-	<string>${ProjectName}</string>
+	<string>${SolutionName}</string>
 </dict>
 </plist>
