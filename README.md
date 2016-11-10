@@ -1,11 +1,10 @@
 # Xamarin Studio add-in for MvvmCross solutions
 
-This installs project templates for creating MvvmCross solutions.
+This installs project templates for creating MvvmCross solutions. This allows you to create a new native Xamarin project targetting iOS and Android using either Xamarin.iOS and Xamarin.Android, or using Xamarin.Forms.
 
-Currently this only supports a new MvvmCross solution targetting iOS and Android.  
 This creates a solution with 3 projects:
 
-* A Core PCL containing a view model
+* A Core PCL containing a view model (or creating your views if you are using the Forms template)
 * An iOS project
 * An Android project
 
