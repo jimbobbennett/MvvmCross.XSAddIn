@@ -223,19 +223,19 @@
     <None Include="Templates\Projects\Forms\Droid\Resources\AboutResources.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\Projects\Forms\Droid\Resources\drawable\icon.png">
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Projects\Forms\Droid\Resources\drawable\splash.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-hdpi\icon.png">
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-hdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xhdpi\icon.png">
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xhdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xxhdpi\icon.png">
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xxhdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Projects\Forms\Droid\Resources\layout\SplashScreen.axml">
