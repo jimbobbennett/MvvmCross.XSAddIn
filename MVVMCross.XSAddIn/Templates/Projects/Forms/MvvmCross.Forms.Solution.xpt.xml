@@ -61,11 +61,12 @@
             <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
             <File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml"/>
 				
-				<RawFile name="Resources/drawable/icon.png" src="Droid/Resources/drawable/icon.png"/>
+				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png"/>
 				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png"/>
-				<RawFile name="Resources/drawable-hdpi/icon.png" src="Droid/Resources/drawable-hdpi/icon.png"/>
-				<RawFile name="Resources/drawable-xhdpi/icon.png" src="Droid/Resources/drawable-xhdpi/icon.png"/>
-				<RawFile name="Resources/drawable-xxhdpi/icon.png" src="Droid/Resources/drawable-xxhdpi/icon.png"/>
+				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Droid/Resources/drawable-hdpi/Icon.png"/>
+				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png"/>
+            <RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png"/>
+            <RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png"/>
 
             <File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml"/>
 
@@ -109,6 +110,31 @@
             <File name="Main.cs" src="iOS/Main.cs" />
             <File name="packages.config" src="iOS/packages.config" />
             <File name="Setup.cs" src="iOS/Setup.cs" />
+            
+            <File name="Assets.xcassets/AppIcon.appiconset/Contents.json" src="iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@1x.png"   src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@1x.png"  />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@2x.png"   src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@2x.png"  />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png"/>
 			</Files>
 
          <Packages>

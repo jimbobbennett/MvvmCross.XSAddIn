@@ -4,7 +4,7 @@ using Mono.Addins.Description;
 [assembly: Addin (
     "MVVMCross.XSAddIn",
     Namespace = "MVVMCross.XSAddIn",
-    Version = "1.1.8"
+    Version = "1.1.9"
 )]
 
 [assembly: AddinName ("MvvmCross Template pack")]

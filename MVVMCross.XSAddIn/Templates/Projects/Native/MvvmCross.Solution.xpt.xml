@@ -105,7 +105,33 @@
 				<File name="Resources/LaunchScreen.xib" src="iOS/Resources/LaunchScreen.xib" />
 				<File name="Views/FirstView.cs" src="iOS/Views/FirstView.cs" />
 				<File name="Views/FirstView.storyboard" src="iOS/Views/FirstView.storyboard" />
-				<File name="Views/FirstView.designer.cs" src="iOS/Views/FirstView.designer.cs" />
+            <File name="Views/FirstView.designer.cs" src="iOS/Views/FirstView.designer.cs" />
+				
+            <File name="Assets.xcassets/AppIcon.appiconset/Contents.json" src="iOS/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@3x.png"     src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@3x.png"    />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@1x.png"   src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@1x.png"  />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@2x.png"   src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-Small-50x50@2x.png"  />
+            <RawFile name="Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" src="iOS/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png"/>
+				
 			</Files>
 			<Packages>
 				<Package id="MvvmCross" version="4.4.0" />

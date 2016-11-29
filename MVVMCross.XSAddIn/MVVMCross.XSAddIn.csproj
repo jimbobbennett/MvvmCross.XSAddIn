@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\MonoDevelop.Addins.0.3.6\build\net40\MonoDevelop.Addins.props" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.6\build\net40\MonoDevelop.Addins.props')" />
+  <Import Project="..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.props" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -313,8 +313,152 @@
     <None Include="Templates\Projects\Forms\iOS\Properties\AssemblyInfo.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="packages.config" />
     <None Include="Templates\Projects\Forms\Droid\Resources\values\strings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%403x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%401x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\iOS\Assets.xcassets\AppIcon.appiconset\Icon-Small-50x50%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-mdpi\Icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xxxhdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -327,7 +471,10 @@
     <Folder Include="Templates\Projects\Native\Droid\" />
     <Folder Include="Templates\Projects\Native\iOS\" />
     <Folder Include="Templates\Projects\Forms\" />
+    <Folder Include="Templates\Projects\Native\iOS\Assets.xcassets\" />
+    <Folder Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\" />
+    <Folder Include="Templates\Projects\Forms\iOS\Assets.xcassets\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\MonoDevelop.Addins.0.3.6\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.6\build\net40\MonoDevelop.Addins.targets')" />
+  <Import Project="..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.targets')" />
 </Project>
