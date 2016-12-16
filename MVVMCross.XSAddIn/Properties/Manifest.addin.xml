@@ -7,8 +7,9 @@
 		<Import file="Templates/Projects/Native/Core/packages.config"/>
 		<Import file="Templates/Projects/Native/Core/Properties/AssemblyInfo.cs"/>
 		<Import file="Templates/Projects/Native/Core/ViewModels/FirstViewModel.cs"/>
-		
-		<Import file="Templates/Projects/Native/Droid/Assets/AboutAssets.txt"/>
+
+      <Import file="Templates/Projects/Native/Droid/Assets/AboutAssets.txt"/>
+      <Import file="Templates/Projects/Native/Droid/Bootstrap/AboutBootstrap.txt"/>
 		<Import file="Templates/Projects/Native/Droid/DebugTrace.cs"/>
 		<Import file="Templates/Projects/Native/Droid/LinkerPleaseInclude.cs"/>
 		<Import file="Templates/Projects/Native/Droid/packages.config"/>

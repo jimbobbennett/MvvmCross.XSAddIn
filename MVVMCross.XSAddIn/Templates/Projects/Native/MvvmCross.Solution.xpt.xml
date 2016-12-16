@@ -59,7 +59,8 @@
 				<File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml" />
 				<File name="Views/FirstView.cs" DefaultName="FirstView.cs" src="Droid/Views/FirstView.cs" />
 				<File name="Views/BaseView.cs" DefaultName="BaseView.cs" src="Droid/Views/BaseView.cs" />
-				<File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
+            <File name="Bootstrap/AboutBootstrap.txt" DefaultName="AboutBootstrap.txt" src="Droid/Bootstrap/AboutBootstrap.txt" />
+            <File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
 				<File name="Resources/layout/FirstView.axml" src="Droid/Resources/layout/FirstView.axml" />
 				<File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml" />
 				<File name="Resources/layout/toolbar.axml" src="Droid/Resources/layout/toolbar.axml" />

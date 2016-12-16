@@ -461,6 +461,9 @@
     <None Include="Templates\Projects\Forms\Droid\Resources\drawable-xxxhdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Templates\Projects\Native\Droid\Bootstrap\AboutBootstrap.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Templates\" />
