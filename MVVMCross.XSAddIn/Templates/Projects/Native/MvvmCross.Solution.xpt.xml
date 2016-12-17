@@ -50,6 +50,7 @@
 				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png" />
 				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png" />
 				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png" />
+				<Directory name="Bootstrap"/>
 				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
 				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
@@ -59,7 +60,6 @@
 				<File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml" />
 				<File name="Views/FirstView.cs" DefaultName="FirstView.cs" src="Droid/Views/FirstView.cs" />
 				<File name="Views/BaseView.cs" DefaultName="BaseView.cs" src="Droid/Views/BaseView.cs" />
-            <File name="Bootstrap/AboutBootstrap.txt" DefaultName="AboutBootstrap.txt" src="Droid/Bootstrap/AboutBootstrap.txt" />
             <File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
 				<File name="Resources/layout/FirstView.axml" src="Droid/Resources/layout/FirstView.axml" />
 				<File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml" />

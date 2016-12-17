@@ -60,6 +60,7 @@
 
             <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
             <File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml"/>
+            <Directory name="Bootstrap"/>
 				
 				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png"/>
 				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png"/>
@@ -86,8 +87,12 @@
 
          <Packages>
             <Package Id="Xamarin.Forms"/>
-            <Package id="MvvmCross" version="4.2.2"/>
+            <Package id="MvvmCross" version="4.2.3"/>
             <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
+            <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.2.0"/>
+            <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.2.0"/>
+            <Package id="MvvmCross.Droid.Support.Design" version="4.2.0" />
+            <Package id="MvvmCross.Droid.Support.V4" version="4.2.0"/>
          </Packages>
 		</Project>
 		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">
