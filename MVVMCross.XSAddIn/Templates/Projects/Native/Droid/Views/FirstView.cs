@@ -11,8 +11,6 @@ namespace ${ProjectName}.Views
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
         }
     }
 }
