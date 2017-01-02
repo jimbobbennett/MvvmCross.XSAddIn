@@ -4,7 +4,7 @@ using Mono.Addins.Description;
 [assembly: Addin (
     "MVVMCross.XSAddIn",
     Namespace = "MVVMCross.XSAddIn",
-    Version = "1.2.2"
+    Version = "1.3.1"
 )]
 
 [assembly: AddinName ("MvvmCross Template pack")]
@@ -14,4 +14,3 @@ using Mono.Addins.Description;
                              "the same as what you would get if you installed the MvvmCross Starter Pack nuget and followed the instructions.\n" +
                              "The project that is created for Xamarin.Forms is the same as the example from the MvvmCross-Forms repo on GitHub.")]
 [assembly: AddinAuthor ("Jim Bennett")]
-
