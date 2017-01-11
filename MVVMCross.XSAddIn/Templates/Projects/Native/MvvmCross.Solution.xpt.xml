@@ -50,7 +50,6 @@
 				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png" />
 				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png" />
 				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png" />
-				<Directory name="Bootstrap"/>
 				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
 				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
@@ -76,10 +75,10 @@
 				<File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs" />
 			</Files>
 			<Packages>
+            <Package id="Xamarin.Android.Support.Design" version="24.2.1"/>
 				<Package id="MvvmCross" version="4.4.0" />
 				<Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.4.0"/>
 				<Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.4.0"/>
-				<Package id="MvvmCross.Droid.Support.Design" version="4.4.0" />
             <Package id="MvvmCross.Droid.Support.V4" version="4.4.1"/>
 			</Packages>
 		</Project>
