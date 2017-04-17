@@ -7,7 +7,7 @@ namespace ${ProjectName}
     [Activity(
         Label = "${ProjectName}"
         , MainLauncher = true
-        , Icon = "@drawable/icon"
+        , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]

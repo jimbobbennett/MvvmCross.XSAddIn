@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.props" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.props')" />
+  <Import Project="..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.props" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -239,25 +239,22 @@
     <AddinFile Include="Templates\Projects\Native\Droid\Properties\AssemblyInfo.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
     <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable\splash.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable-hdpi\Icon.png">
+    <AddinFile Include="Templates\Projects\Native\Droid\Resources\mipmap-hdpi\ic_launcher.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable-mdpi\Icon.png">
+    <AddinFile Include="Templates\Projects\Native\Droid\Resources\mipmap-mdpi\ic_launcher.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable-xhdpi\Icon.png">
+    <AddinFile Include="Templates\Projects\Native\Droid\Resources\mipmap-xhdpi\ic_launcher.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable-xxhdpi\Icon.png">
+    <AddinFile Include="Templates\Projects\Native\Droid\Resources\mipmap-xxhdpi\ic_launcher.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Native\Droid\Resources\drawable-xxxhdpi\Icon.png">
+    <AddinFile Include="Templates\Projects\Native\Droid\Resources\mipmap-xxxhdpi\ic_launcher.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
     <AddinFile Include="Templates\Projects\Native\Droid\Resources\layout\FirstView.axml">
@@ -478,5 +475,5 @@
     </AddinFile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.8\build\net40\MonoDevelop.Addins.targets')" />
+  <Import Project="..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.targets')" />
 </Project>

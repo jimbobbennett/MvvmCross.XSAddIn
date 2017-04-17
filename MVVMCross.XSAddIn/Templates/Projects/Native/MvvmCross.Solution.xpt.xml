@@ -43,13 +43,18 @@
 				<Reference type="Project" refto="${ProjectName}.Core" />
 			</References>
 			<Files>
-				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png" />
+            <Directory name="Resources">
+               <Directory name="drawable-hdpi"/>
+               <Directory name="drawable-mdpi"/>
+               <Directory name="drawable-xhdpi"/>
+               <Directory name="drawable-xxhdpi"/>
+				</Directory>
 				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png" />
-				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Droid/Resources/drawable-hdpi/Icon.png" />
-				<RawFile name="Resources/drawable-mdpi/Icon.png" src="Droid/Resources/drawable-mdpi/Icon.png" />
-				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png" />
-				<RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png" />
-				<RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png" />
+				<RawFile name="Resources/mipmap-hdpi/ic_launcher.png" src="Droid/Resources/mipmap-hdpi/ic_launcher.png" />
+				<RawFile name="Resources/mipmap-mdpi/ic_launcher.png" src="Droid/Resources/mipmap-mdpi/ic_launcher.png" />
+				<RawFile name="Resources/mipmap-xhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xhdpi/ic_launcher.png" />
+				<RawFile name="Resources/mipmap-xxhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xxhdpi/ic_launcher.png" />
+				<RawFile name="Resources/mipmap-xxxhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xxxhdpi/ic_launcher.png" />
 				<File name="packages.config" DefaultName="packages.config" src="Droid/packages.config" />
 				<File name="DebugTrace.cs" DefaultName="DebugTrace.cs" src="Droid/DebugTrace.cs" />
 				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
@@ -75,7 +80,7 @@
 				<File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.Designer.cs" />
 			</Files>
 			<Packages>
-            <Package id="Xamarin.Android.Support.Design" version="24.2.1"/>
+            <Package id="Xamarin.Android.Support.Design" version="25.1.1"/>
 				<Package id="MvvmCross" version="4.4.0" />
 				<Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.4.0"/>
 				<Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.4.0"/>
