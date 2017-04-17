@@ -5,7 +5,7 @@ using MvvmCross.Droid.Views;
 namespace ${ProjectName}
 {
     [Activity(
-        Label = "${ProjectName}"
+        Label = "${SolutionName}"
         , MainLauncher = true
         , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
