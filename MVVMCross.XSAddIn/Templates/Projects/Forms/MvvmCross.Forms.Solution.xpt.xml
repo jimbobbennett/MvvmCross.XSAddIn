@@ -58,21 +58,33 @@
 			<Files>
             <File name="Assets/AboutAssets.txt" DefaultName="AboutAssets.txt" src="Droid/Assets/AboutAssets.txt" />
 
-            <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
-            <File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml"/>
             <Directory name="Bootstrap"/>
-				
-				<RawFile name="Resources/drawable/Icon.png" src="Droid/Resources/drawable/Icon.png"/>
-				<RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png"/>
-				<RawFile name="Resources/drawable-hdpi/Icon.png" src="Droid/Resources/drawable-hdpi/Icon.png"/>
-				<RawFile name="Resources/drawable-xhdpi/Icon.png" src="Droid/Resources/drawable-xhdpi/Icon.png"/>
-            <RawFile name="Resources/drawable-xxhdpi/Icon.png" src="Droid/Resources/drawable-xxhdpi/Icon.png"/>
-            <RawFile name="Resources/drawable-xxxhdpi/Icon.png" src="Droid/Resources/drawable-xxxhdpi/Icon.png"/>
+
+            <Directory name="Resources">
+               <Directory name="drawable-hdpi"/>
+               <Directory name="drawable-mdpi"/>
+               <Directory name="drawable-xhdpi"/>
+               <Directory name="drawable-xxhdpi"/>
+            </Directory>
+            <RawFile name="Resources/drawable/splash.png" src="Droid/Resources/drawable/splash.png" />
+            <RawFile name="Resources/mipmap-hdpi/ic_launcher.png" src="Droid/Resources/mipmap-hdpi/ic_launcher.png" />
+            <RawFile name="Resources/mipmap-mdpi/ic_launcher.png" src="Droid/Resources/mipmap-mdpi/ic_launcher.png" />
+            <RawFile name="Resources/mipmap-xhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xhdpi/ic_launcher.png" />
+            <RawFile name="Resources/mipmap-xxhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xxhdpi/ic_launcher.png" />
+            <RawFile name="Resources/mipmap-xxxhdpi/ic_launcher.png" src="Droid/Resources/mipmap-xxxhdpi/ic_launcher.png" />
 
             <File name="Resources/layout/SplashScreen.axml" src="Droid/Resources/layout/SplashScreen.axml"/>
+            <File name="Resources/layout/toolbar.axml" src="Droid/Resources/layout/toolbar.axml"/>
+            <File name="Resources/layout/tabs.axml" src="Droid/Resources/layout/tabs.axml"/>
 
-            <File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml"/>
-            <File name="Resources/values/strings.xml" src="Droid/Resources/values/strings.xml"/>
+            <File name="Resources/values/arrays.xml" src="Droid/Resources/values/arrays.xml" />
+            <File name="Resources/values/colors.xml" src="Droid/Resources/values/colors.xml" />
+            <File name="Resources/values/dimens.xml" src="Droid/Resources/values/dimens.xml" />
+            <File name="Resources/values/integers.xml" src="Droid/Resources/values/integers.xml" />
+            <File name="Resources/values/SplashStyle.xml" src="Droid/Resources/values/SplashStyle.xml" />
+            <File name="Resources/values/strings.xml" src="Droid/Resources/values/strings.xml" />
+            <File name="Resources/values/styles.xml" src="Droid/Resources/values/styles.xml" />
+            <File name="Resources/values-v21/styles.xml" src="Droid/Resources/values-v21/styles.xml" />
 
             <File name="Resources/AboutResources.txt" src="Droid/Resources/AboutResources.txt"/>
             <File name="Resources/Resource.Designer.cs" src="Droid/Resources/Resource.designer.cs"/>
@@ -82,17 +94,21 @@
 				<File name="LinkerPleaseInclude.cs" DefaultName="LinkerPleaseInclude.cs" src="Droid/LinkerPleaseInclude.cs" />
 				<File name="Setup.cs" DefaultName="Setup.cs" src="Droid/Setup.cs" />
             <File name="SplashScreen.cs" DefaultName="SplashScreen.cs" src="Droid/SplashScreen.cs" />
+            <File name="Properties/AssemblyInfo.cs" DefaultName="AssemblyInfo.cs" src="Droid/Properties/AssemblyInfo.cs" />
+            <File name="Properties/AndroidManifest.xml" DefaultName="AndroidManifest.xml" src="Droid/Properties/AndroidManifest.xml" />
             <File name="MvxFormsApplicationActivity.cs" DefaultName="MvxFormsApplicationActivity.cs" src="Droid/MvxFormsApplicationActivity.cs" />
           </Files>
 
          <Packages>
             <Package Id="Xamarin.Forms"/>
-            <Package id="MvvmCross" version="4.2.3"/>
-            <Package id="MvvmCross.Forms.Presenter" version="4.1.4"/>
-            <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.2.0"/>
-            <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.2.0"/>
-            <Package id="MvvmCross.Droid.Support.Design" version="4.2.0" />
-            <Package id="MvvmCross.Droid.Support.V4" version="4.2.0"/>
+            <Package id="Xamarin.Android.Support.v7.CardView" version="25.1.1"/>
+            <Package id="Xamarin.Android.Support.v7.RecyclerView" version="25.1.1"/>
+            <Package id="Xamarin.Android.Support.v4" version="25.1.1"/>
+            <Package id="MvvmCross" version="4.4.0" />
+            <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="4.4.0"/>
+            <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="4.4.0"/>
+            <Package id="MvvmCross.Droid.Support.V4" version="4.4.1"/>
+            <Package id="MvvmCross.Forms.Presenter" version="4.4.0"/>
          </Packages>
 		</Project>
 		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">

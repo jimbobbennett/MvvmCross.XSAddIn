@@ -66,6 +66,12 @@
     <Folder Include="Templates\Projects\Native\iOS\Assets.xcassets\" />
     <Folder Include="Templates\Projects\Native\iOS\Assets.xcassets\AppIcon.appiconset\" />
     <Folder Include="Templates\Projects\Forms\iOS\Assets.xcassets\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\mipmap-hdpi\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\mipmap-mdpi\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\mipmap-xhdpi\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\mipmap-xxhdpi\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\mipmap-xxxhdpi\" />
+    <Folder Include="Templates\Projects\Forms\Droid\Resources\values-v21\" />
   </ItemGroup>
   <ItemGroup>
     <AddinFile Include="Templates\Projects\Native\MvvmCross.Solution.xpt.xml">
@@ -395,19 +401,7 @@
     <AddinFile Include="Templates\Projects\Forms\Droid\Resources\AboutResources.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
     <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable\splash.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable-hdpi\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable-xhdpi\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable-xxhdpi\Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
     <AddinFile Include="Templates\Projects\Forms\Droid\Resources\layout\SplashScreen.axml">
@@ -440,12 +434,6 @@
     <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\strings.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable-mdpi\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
-    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\drawable-xxxhdpi\Icon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AddinFile>
     <AddinFile Include="Templates\Projects\Forms\Core\packages.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
@@ -473,6 +461,43 @@
     <AddinFile Include="Templates\Projects\Forms\Core\ViewModels\FirstViewModel.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\mipmap-hdpi\ic_launcher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\mipmap-mdpi\ic_launcher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\mipmap-xhdpi\ic_launcher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\mipmap-xxhdpi\ic_launcher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\mipmap-xxxhdpi\ic_launcher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values-v21\styles.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\arrays.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\colors.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\dimens.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\integers.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\values\styles.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\layout\toolbar.axml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </AddinFile>
+    <AddinFile Include="Templates\Projects\Forms\Droid\Resources\layout\tabs.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.targets" Condition="Exists('..\packages\MonoDevelop.Addins.0.3.10\build\net40\MonoDevelop.Addins.targets')" />

@@ -22,11 +22,14 @@ namespace ${ProjectName}
 {
     [Activity(Label = "MvxFormsApplicationActivity", ScreenOrientation=ScreenOrientation.Portrait)]
     public class MvxFormsApplicationActivity
-        : FormsApplicationActivity
+        : FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+
+            FormsAppCompatActivity.ToolbarResource = Resource.Layout.toolbar;
+            FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;
 
             Forms.Init(this, bundle);
             var mvxFormsApp = new MvxFormsApp();

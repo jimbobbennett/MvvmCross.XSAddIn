@@ -16,19 +16,23 @@ namespace ${ProjectName}
     [Register("AppDelegate")]
     public partial class AppDelegate : MvxApplicationDelegate
     {
-        UIWindow _window;
-
-        public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+        public override UIWindow Window
         {
-            _window = new UIWindow(UIScreen.MainScreen.Bounds);
+        	get;
+        	set;
+        }
 
-            var setup = new Setup(this, _window);
+        public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
+        {
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+
+            var setup = new Setup(this, Window);
             setup.Initialize();
 
             var startup = Mvx.Resolve<IMvxAppStart>();
             startup.Start();
 
-            _window.MakeKeyAndVisible();
+            Window.MakeKeyAndVisible();
 
             return true;
         }

@@ -6,9 +6,9 @@ using Xamarin.Forms;
 namespace ${ProjectName}
 {
     [Activity(
-        Label = "${ProjectName}"
+        Label = "${SolutionName}"
         , MainLauncher = true
-        , Icon = "@drawable/icon"
+        , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
@@ -20,7 +20,7 @@ namespace ${ProjectName}
         {
         }
 
-        private bool isInitializationComplete = false;
+        bool isInitializationComplete = false;
         public override void InitializationComplete()
         {
             if (!isInitializationComplete)

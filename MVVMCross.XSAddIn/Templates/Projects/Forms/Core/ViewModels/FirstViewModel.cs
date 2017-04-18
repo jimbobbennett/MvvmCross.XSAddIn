@@ -5,22 +5,19 @@ namespace ${ProjectName}.ViewModels
 {
     public class FirstViewModel : MvxViewModel
     {
-        private string _yourNickname = string.Empty;
+        private string yourNickname = string.Empty;
 
         public string YourNickname
         { 
-            get { return _yourNickname; }
+            get { return yourNickname; }
             set 
             { 
-                if (SetProperty(ref _yourNickname, value))
+                if (SetProperty(ref yourNickname, value))
                     RaisePropertyChanged(() => Hello); 
             }
         }
 
-        public string Hello
-        {
-            get { return "Hello " + YourNickname; }
-        }
+        public string Hello => $"Hello {YourNickname}";
 
         public ICommand ShowAboutPageCommand
         {
