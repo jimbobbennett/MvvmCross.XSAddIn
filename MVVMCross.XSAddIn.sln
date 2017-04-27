@@ -1,5 +1,5 @@
 
-Microsoft Visual Studio Solution File, Format Version 12.00
+Microsoft Visual Studio Solution File, Format Version 15.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCross.XSAddIn", "MVVMCross.XSAddIn\MVVMCross.XSAddIn.csproj", "{C14E76E2-78DA-4E89-8D98-E706CCC3C18F}"
 EndProject
@@ -18,43 +18,20 @@ Global
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.FileWidth = 55
-		$1.inheritsSet = VisualStudio
-		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
+		$1.TabsToSpaces = True
 		$0.CSharpFormattingPolicy = $2
-		$2.IndentSwitchSection = True
-		$2.NewLinesForBracesInProperties = True
-		$2.NewLinesForBracesInAccessors = True
-		$2.NewLinesForBracesInAnonymousMethods = True
-		$2.NewLinesForBracesInControlBlocks = True
-		$2.NewLinesForBracesInAnonymousTypes = True
-		$2.NewLinesForBracesInObjectCollectionArrayInitializers = True
-		$2.NewLinesForBracesInLambdaExpressionBody = True
-		$2.NewLineForElse = True
-		$2.NewLineForCatch = True
-		$2.NewLineForFinally = True
-		$2.NewLineForMembersInObjectInit = True
-		$2.NewLineForMembersInAnonymousTypes = True
-		$2.NewLineForClausesInQuery = True
-		$2.SpacingAfterMethodDeclarationName = False
-		$2.SpaceAfterMethodCallName = False
-		$2.SpaceBeforeOpenSquareBracket = False
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
 		$0.TextStylePolicy = $3
 		$3.FileWidth = 55
 		$3.TabWidth = 3
 		$3.IndentWidth = 3
-		$3.inheritsSet = VisualStudio
-		$3.inheritsScope = text/plain
 		$3.scope = text/plain
+		$3.TabsToSpaces = True
 		$0.TextStylePolicy = $4
 		$4.inheritsSet = null
 		$4.scope = application/xml
 		$0.XmlFormattingPolicy = $5
-		$5.inheritsSet = Mono
-		$5.inheritsScope = application/xml
 		$5.scope = application/xml
 	EndGlobalSection
 EndGlobal
