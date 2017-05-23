@@ -1,8 +1,6 @@
-﻿using Xamarin.Forms;
-
-namespace ${ProjectName}.Pages
+﻿namespace ${ProjectName}.Pages
 {
-    public partial class FirstPage : ContentPage
+    public partial class FirstPage
     {
         public FirstPage()
         {
