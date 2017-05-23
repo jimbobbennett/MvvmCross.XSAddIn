@@ -106,6 +106,9 @@
             <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.0"/>
             <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.0"/>
             <Package id="MvvmCross.Forms" version="5.0.0"/>
+            <Package id="Xamarin.Build.Download"/>
+            <Package id="Xamarin.Android.Support.v7.CardView"/>
+            <Package id="Xamarin.Android.Support.v4"/>
          </Packages>
 		</Project>
 		<Project name="${ProjectName}.iOS" directory = "./${ProjectName}.iOS" type="XamarinIOS">

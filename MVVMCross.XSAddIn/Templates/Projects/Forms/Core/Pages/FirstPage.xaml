@@ -7,21 +7,14 @@
                     Title="First Page">
 
     <mvx:MvxContentPage.Padding Thickness="5, 0, 5, 95">
-        <OnPlatform x:TypeArguments="Thickness"
-                iOS="5, 20, 5, 0"
-                Android="5, 0, 5, 0"
-                WinPhone="5, 0, 5, 0"
-         />
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android" Value="5, 0, 5, 0"/>
+            <On Platform="iOS" Value="5, 20, 5, 0"/>
+        </OnPlatform>
     </mvx:MvxContentPage.Padding>
     
     <mvx:MvxContentPage.ToolbarItems>
-        <ToolbarItem Name="Menu1" Text = "About" ClassId = "About" Order = "Primary" Command="{Binding ShowAboutPageCommand}">
-            <ToolbarItem.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource"
-                    WinPhone="Toolkit.Content/ApplicationBar.Add.png" 
-                />
-            </ToolbarItem.Icon>            
-        </ToolbarItem>
+        <ToolbarItem Name="Menu1" Text = "About" ClassId = "About" Order = "Primary" Command="{Binding ShowAboutPageCommand}"/>
     </mvx:MvxContentPage.ToolbarItems>
     
 

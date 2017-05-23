@@ -6,14 +6,13 @@ using Xamarin.Forms;
 namespace ${ProjectName}
 {
     [Activity(
-        Label = "${SolutionName}"
+        Label = "FormsTest4.Droid"
         , MainLauncher = true
         , Icon = "@mipmap/ic_launcher"
         , Theme = "@style/Theme.Splash"
         , NoHistory = true
         , ScreenOrientation = ScreenOrientation.Portrait)]
-    public class SplashScreen
-        : MvxSplashScreenActivity
+    public class SplashScreen : MvxSplashScreenActivity
     {
         public SplashScreen()
             : base(Resource.Layout.SplashScreen)
@@ -34,7 +33,8 @@ namespace ${ProjectName}
         {
             Forms.Init(this, bundle);
             // Leverage controls' StyleId attrib. to Xamarin.UITest
-            Forms.ViewInitialized += (object sender, ViewInitializedEventArgs e) => {
+            Forms.ViewInitialized += (object sender, ViewInitializedEventArgs e) =>
+            {
                 if (!string.IsNullOrWhiteSpace(e.View.StyleId))
                 {
                     e.NativeView.ContentDescription = e.View.StyleId;

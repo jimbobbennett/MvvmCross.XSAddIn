@@ -12,27 +12,28 @@ using Android.Widget;
 using Android.Content.PM;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms;
-using MvvmCross.Forms.Presenter.Core;
 using MvvmCross.Platform;
 using MvvmCross.Core.Views;
-using MvvmCross.Forms.Presenter.Droid;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Forms.Droid;
+using MvvmCross.Forms.Core;
+using MvvmCross.Forms.Droid.Presenters;
 
 namespace ${ProjectName}
 {
-    [Activity(Label = "MvxFormsApplicationActivity", ScreenOrientation=ScreenOrientation.Portrait)]
+    [Activity(Label = "MvxFormsApplicationActivity", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MvxFormsApplicationActivity
-        : FormsAppCompatActivity
+        : MvxFormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            FormsAppCompatActivity.ToolbarResource = Resource.Layout.toolbar;
-            FormsAppCompatActivity.TabLayoutResource = Resource.Layout.tabs;
+            ToolbarResource = Resource.Layout.toolbar;
+            TabLayoutResource = Resource.Layout.tabs;
 
             Forms.Init(this, bundle);
-            var mvxFormsApp = new MvxFormsApp();
+            var mvxFormsApp = new MvxFormsApplication();
             LoadApplication(mvxFormsApp);
 
             var presenter = Mvx.Resolve<IMvxViewPresenter>() as MvxFormsDroidPagePresenter;
@@ -42,4 +43,5 @@ namespace ${ProjectName}
         }
     }
 }
+
 
