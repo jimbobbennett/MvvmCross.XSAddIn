@@ -1,11 +1,19 @@
-using MvvmCross.Core.ViewModels;
 using System.Windows.Input;
+using MvvmCross.Core.Navigation;
+using MvvmCross.Core.ViewModels;
 
 namespace ${ProjectName}.ViewModels
 {
     public class FirstViewModel : MvxViewModel
     {
-        private string yourNickname = string.Empty;
+        readonly IMvxNavigationService navigationService;
+
+        public FirstViewModel(IMvxNavigationService navigationService)
+        {
+            this.navigationService = navigationService;
+        }
+
+        string yourNickname = string.Empty;
 
         public string YourNickname
         { 
@@ -19,9 +27,6 @@ namespace ${ProjectName}.ViewModels
 
         public string Hello => $"Hello {YourNickname}";
 
-        public ICommand ShowAboutPageCommand
-        {
-            get { return new MvxCommand(() => ShowViewModel<AboutViewModel>()); }
-        }
+        public ICommand ShowAboutPageCommand => new MvxAsyncCommand(() => navigationService.Navigate<AboutViewModel>());
     }
 }
