@@ -1,5 +1,5 @@
 using Android.Content;
-using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using MvvmCross.Droid.Views;
@@ -9,7 +9,7 @@ using MvvmCross.Platform;
 
 namespace ${ProjectName}
 {
-    public class Setup : MvxAndroidSetup
+    public class Setup : MvxAppCompatSetup
     {
         public Setup(Context applicationContext)
             : base(applicationContext)
