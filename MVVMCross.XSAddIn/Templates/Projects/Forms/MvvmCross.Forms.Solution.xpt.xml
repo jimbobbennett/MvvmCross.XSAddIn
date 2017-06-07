@@ -37,8 +37,8 @@
 
          <Packages>
             <Package Id="Xamarin.Forms"/>
-            <Package id="MvvmCross" version="5.0.1"/>
-            <Package id="MvvmCross.Forms" version="5.0.1"/>
+            <Package id="MvvmCross" version="5.0.2"/>
+            <Package id="MvvmCross.Forms" version="5.0.2"/>
          </Packages>
       </Project>
 		<Project name="${ProjectName}.Droid" directory = "./${ProjectName}.Droid" type="MonoDroid">
@@ -102,10 +102,10 @@
          <Packages>
             <Package Id="Xamarin.Forms"/>
             <Package id="Xamarin.Android.Support.Design"/>
-            <Package id="MvvmCross" version="5.0.1" />
-            <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.1"/>
-            <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.1"/>
-            <Package id="MvvmCross.Forms" version="5.0.1"/>
+            <Package id="MvvmCross" version="5.0.2" />
+            <Package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.2"/>
+            <Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.2"/>
+            <Package id="MvvmCross.Forms" version="5.0.2"/>
             <Package id="Xamarin.Build.Download"/>
             <Package id="Xamarin.Android.Support.v7.CardView"/>
             <Package id="Xamarin.Android.Support.v4"/>
@@ -160,8 +160,8 @@
 
          <Packages>
             <Package Id="Xamarin.Forms"/>
-            <Package id="MvvmCross" version="5.0.1"/>
-            <Package id="MvvmCross.Forms" version="5.0.1"/>
+            <Package id="MvvmCross" version="5.0.2"/>
+            <Package id="MvvmCross.Forms" version="5.0.2"/>
          </Packages>
 		</Project>
     </Combine>
