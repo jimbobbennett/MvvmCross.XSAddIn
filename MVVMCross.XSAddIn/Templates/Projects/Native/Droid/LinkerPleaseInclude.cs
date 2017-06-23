@@ -35,13 +35,13 @@ namespace ${ProjectName}
 
         public void Include(TextView text)
         {
-            text.TextChanged += (sender, args) => text.Text = "" + text.Text;
+            text.AfterTextChanged += (sender, args) => text.Text = "" + text.Text;
             text.Hint = "" + text.Hint;
         }
         
         public void Include(CheckedTextView text)
         {
-            text.TextChanged += (sender, args) => text.Text = "" + text.Text;
+            text.AfterTextChanged += (sender, args) => text.Text = "" + text.Text;
             text.Hint = "" + text.Hint;
         }
 
@@ -55,6 +55,21 @@ namespace ${ProjectName}
             sb.ProgressChanged += (sender, args) => sb.Progress = sb.Progress + 1;
         }
 
+        public void Include(RadioGroup radioGroup)
+        {
+            radioGroup.CheckedChange += (sender, args) => radioGroup.Check(args.CheckedId);
+        }
+
+        public void Include(RadioButton radioButton)
+        {
+            radioButton.CheckedChange += (sender, args) => radioButton.Checked = args.IsChecked;
+        }
+        
+        public void Include(RatingBar ratingBar)
+        {
+            ratingBar.RatingBarChange += (sender, args) => ratingBar.Rating = 0 + ratingBar.Rating;
+        }
+
         public void Include(Activity act)
         {
             act.Title = act.Title + "";
@@ -62,13 +77,8 @@ namespace ${ProjectName}
 
         public void Include(INotifyCollectionChanged changed)
         {
-            changed.CollectionChanged += (s, e) => 
-            { 
-                var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}";
-                GC.KeepAlive (test);
-            };
+            changed.CollectionChanged += (s,e) => { var test = $"{e.Action}{e.NewItems}{e.NewStartingIndex}{e.OldItems}{e.OldStartingIndex}"; };
         }
-
         public void Include(ICommand command)
         {
             command.CanExecuteChanged += (s, e) => { if (command.CanExecute(null)) command.Execute(null); };
@@ -77,14 +87,19 @@ namespace ${ProjectName}
         public void Include(MvvmCross.Platform.IoC.MvxPropertyInjector injector)
         {
             injector = new MvvmCross.Platform.IoC.MvxPropertyInjector ();
-            GC.KeepAlive (injector);
         } 
-
         public void Include(System.ComponentModel.INotifyPropertyChanged changed)
         {
             changed.PropertyChanged += (sender, e) =>  {
                 var test = e.PropertyName;
             };
+        }
+        
+        public void Include(MvxTaskBasedBindingContext context)
+        {
+            context.Dispose();
+            var context2 = new MvxTaskBasedBindingContext();
+            context2.Dispose();
         }
     }
 }
