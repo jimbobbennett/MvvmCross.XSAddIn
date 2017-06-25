@@ -25,7 +25,7 @@
 				<File name="ViewModels/FirstViewModel.cs" DefaultName="FirstViewModel.cs" src="Core/ViewModels/FirstViewModel.cs" />
 			</Files>
 			<Packages>
-				<Package id="MvvmCross" version="5.0.3" />
+				<Package id="MvvmCross" version="5.0.4" />
 			</Packages>
 		</Project>
 		<Project name="${ProjectName}.Droid" directory="./${ProjectName}.Droid" type="MonoDroid">
@@ -81,9 +81,9 @@
 			</Files>
 			<Packages>
             <Package id="Xamarin.Android.Support.Design"/>
-				<Package id="MvvmCross" version="5.0.3" />
-				<Package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.3"/>
-				<Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.3"/>
+				<Package id="MvvmCross" version="5.0.4" />
+				<Package id="MvvmCross.Droid.Support.V7.AppCompat" version="5.0.4"/>
+				<Package id="MvvmCross.Droid.Support.V7.RecyclerView" version="5.0.4"/>
 			</Packages>
 		</Project>
 		<Project name="${ProjectName}.iOS" directory="./${ProjectName}.iOS" type="XamarinIOS">
@@ -138,7 +138,7 @@
 				
 			</Files>
 			<Packages>
-				<Package id="MvvmCross" version="5.0.3" />
+				<Package id="MvvmCross" version="5.0.4" />
 			</Packages>
 		</Project>
 	</Combine>
