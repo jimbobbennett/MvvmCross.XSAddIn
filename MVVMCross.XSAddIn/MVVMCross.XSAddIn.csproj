@@ -31,7 +31,7 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>"/Applications/Xamarin Studio.app/Contents/MacOS/mdtool" setup pack MVVMCross.XSAddin.dll</command>
+          <command>"/Applications/Visual Studio.app/Contents/MacOS/vstool" setup pack MVVMCross.XSAddin.dll</command>
           <workingdir>${TargetDir}</workingdir>
         </Command>
       </CustomCommands>
