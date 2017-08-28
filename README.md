@@ -1,3 +1,9 @@
+### THIS PROJECT IS DEPRECATED
+This project has been deprecated, and replaced by https://github.com/jimbobbennett/MvvmCross-Templates/.
+
+
+
+
 # Xamarin Studio add-in for MvvmCross solutions
 
 This installs project templates for creating MvvmCross solutions. This allows you to create a new native Xamarin project targetting iOS and Android using either Xamarin.iOS and Xamarin.Android, or using Xamarin.Forms.
